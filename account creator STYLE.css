@@ -1,0 +1,49 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*background:#fcf8ed;*/
+    background-image: repeating-linear-gradient(225deg,#fcf8ed 90%, #faefb4)
+    /*background-image: linear-gradient(180deg, #fcf8ed, #faefb4);*/
+    /*the degrees will stay the same even without saying "180deg," I just put that there for reference*/
+    /*there are also repeating gradients, conic gradients (conic-gradient), and radial gradients (radial-gradient)*/
+}
+.heading {
+    color:brown;
+    background-color:bisque;
+    text-align:center;
+}
+.fake-heading {
+    color:brown;
+    text-align:center;
+}
+table, td, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 1px;
+    text-align:center;
+    margin: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#border {
+    /*border: 2px solid black;
+    border-collapse: collapse;
+    padding: 1px;*/
+    text-align:center;
+    margin: 12px;
+}
+.img-border {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align:center;
+    margin: 12px;
+}
+.lemon {
+    color:orange;
+    background-color:yellow;
+}
+#identity {
+    text-align:center;
+}
+p:hover {
+    color:blue;
+}
